@@ -1,4 +1,4 @@
-# CS-1203-M22: Data Structures (Monsoon 2022)
+# Data Structures (Monsoon 2022)
 ## Aatreyi Dutt
 ### Professor: Debayan Gupta
 
