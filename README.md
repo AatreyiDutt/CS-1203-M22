@@ -3,7 +3,7 @@
 ### Professor: Debayan Gupta
 
 ## Contents
-- linkedList.c: Implementation of a Linked List: Given a set of values (assume int), create a linked list from them
+- linkedList.c : Implementation of a Linked List: Given a set of values (assume int), create a linked list from them
 - : Reversing a Linked List: Given a Linked List, reverse it
 - : Chunk Reversing a Linked List for any chunk size in range 1 to n (inclusive): Given a Linked List, and an integer k representing the chunk size, chunk-reverse the list
 - : Selection Sort Algorithm: Given an array of values (assume int), use selection sort to sort them
