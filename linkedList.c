@@ -6,7 +6,7 @@ struct Node {
   struct Node* next;  //pointer to next node
 };
 
-void createList(int n){ //creates a linked list of numbers 0 to n
+struct Node* createList(int n){ //creates a linked list of numbers 0 to n
   int i = 0;
   struct Node* head = (struct Node*)malloc(sizeof(struct Node));
 
@@ -23,8 +23,10 @@ void createList(int n){ //creates a linked list of numbers 0 to n
     prev = temp;  //new node is now the previous node
     i++;
   }
+  return head;  //return starting pointer of list
+}
 
-  // traversal
+void traverseList(struct Node* head){
   struct Node* curr = head;
   while (curr){
     printf("%d -> ", curr->val);
@@ -34,6 +36,7 @@ void createList(int n){ //creates a linked list of numbers 0 to n
 }
 
 int main(){
-  createList(5);  //create a linked list of 0 to 4
+  struct Node* list = createList(5);  //create a linked list of 0 to 4
+  traverseList(list);
   return 0;
 }
