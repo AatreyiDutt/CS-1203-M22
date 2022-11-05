@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 struct Node {
-  int val;  //value of node
-  struct Node* next;  //pointer to next node
+  int val;
+  struct Node* next;
 };
 
 
