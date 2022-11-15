@@ -55,6 +55,7 @@ struct Node* reverseChunk(struct Node* head, int k){
     prec = curr;  //shift up prec
     curr = succ;  //shift up succ using saved value
   }
+
   head->next = prec;
 }
 
