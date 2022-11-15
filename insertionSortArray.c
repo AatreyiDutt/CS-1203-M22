@@ -11,15 +11,17 @@ int* createArray(){
   return arr;
 }
 
-int insertionSort(int arr[]){
-  return 0;
+int* insertionSort(int arr[]){
+  
+  return arrs;
 }
 
 
 void main(){
   int a;
   int *arr = createArray();
-  for (a=0; a<sizeof(arr); a++){
+  for (a=0; a<10; a++){
     printf("%d ", arr[a]);
   }
+  arrs = insertionSort(arr);
 }
