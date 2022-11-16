@@ -4,13 +4,13 @@
 int* insertionSort(int * arr, int size){
   int i, item, j;
     for (i = 1; i < size; i++) {
-        item = arr[i];
-        j = i - 1;
-        while (j >= 0 && arr[j] > item) {
-            arr[j+1] = arr[j];
-            j--;
-        }
-        arr[j+1] = item;
+      item = arr[i];
+      j = i - 1;
+      while (j >= 0 && arr[j] > item) {
+        arr[j+1] = arr[j];
+          j--;
+      }
+      arr[j+1] = item;
     }
   return arr;
 }
