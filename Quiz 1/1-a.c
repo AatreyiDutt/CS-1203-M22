@@ -17,13 +17,17 @@ void basicFizzBuzz(int x){
     flag++;
   }
   if (flag == 0){
-    printf("%d\n", x);
+    printf("%d", x);
   }
+  printf("\n");
 }
 
 void main(){
-  printf("Enter integer: ");
-  int x;
-  scanf("%d", &x);
-  basicFizzBuzz(x);
+  int y=0;
+  while(y==0){
+    printf("Enter integer: ");
+    int x;
+    scanf("%d", &x);
+    basicFizzBuzz(x);
+  }
 }
