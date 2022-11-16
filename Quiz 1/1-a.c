@@ -23,11 +23,8 @@ void basicFizzBuzz(int x){
 }
 
 void main(){
-  int y=0;
-  while(y==0){
-    printf("Enter integer: ");
-    int x;
-    scanf("%d", &x);
-    basicFizzBuzz(x);
-  }
+  printf("Enter integer: ");
+  int x;
+  scanf("%d", &x);
+  basicFizzBuzz(x);
 }
