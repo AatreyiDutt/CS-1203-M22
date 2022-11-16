@@ -58,7 +58,7 @@ void traverseList(struct Node* head){
     printf("%d -> ", curr->val);
     curr = curr->next;
   }
-  printf("NULL \n"); // end of list
+  printf("NULL \n");
 }
 
 void main(){
