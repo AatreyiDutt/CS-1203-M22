@@ -1,33 +1,11 @@
-// BST is the BEST
+#include<stdio.h>
+#include<stdlib.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
-struct Leaf {
-  int val;
-  struct Leaf* left;  //larger
-  struct Leaf* right; //smaller
+struct Leaf{
+	int val;
+	struct Leaf* left;
+	struct Leaf* right;
 };
-
-struct Leaf* sortBST(int a*, int start, int end){
-  int midpos = (end-start)/2; // create mid Leaf
-  struct Leaf* root = (struct Leaf*)malloc(sizeof(struct Leaf));
-  root->val = a[midpos];  // assign value from array
-  for (int i = 0; i<n; i++){  // for every next element check if greater/lesser and branch
-
-  }
-  if (start<end){
-    
-  } else {}
-    return root;
-  }
-}
-
-struct Leaf* arrayToReverseBST(int* a, int n){
-  int end = n-1;
-  int start = 0;
-  root = sortBST(a, start, end);
-}
 
 int* insertionSort(int * arr, int size){
   int i, item, j;
@@ -43,12 +21,48 @@ int* insertionSort(int * arr, int size){
   return arr;
 }
 
+
+struct Leaf* createNew(int num){
+  struct Leaf* new = (struct Leaf*)malloc(sizeof(struct Leaf));
+  new->val = num;
+  new->left = NULL;
+  new->right = NULL;
+  return new;
+}
+
+struct Leaf* recursiveBST(int arr[], int start, int end){
+	if (start > end)
+	return NULL;
+
+	int mid = (start + end)/2; //middle element
+	struct Leaf *root = createNew(arr[mid]);
+
+	root->right = recursiveBST(arr, start, mid-1);
+  root->left = recursiveBST(arr, mid+1, end);
+
+	return root;
+}
+
+struct Leaf* arrayToReverseBST (int* a, int n){
+	struct Leaf *root = recursiveBST(a, 0, n-1);
+  return root;
+}
+
+void preOrder(struct Leaf* node)
+{
+	if (node == NULL)
+		return;
+	printf("%d ", node->val);
+	preOrder(node->left);
+	preOrder(node->right);
+}
+
 void main(){
-  static int a[10];
+  static int arr[10]; // array creation
   for (int i=0; i<10; i++){
-    a[i] = rand()%(99+1-1);
-    printf("%d ", a[i]);
+    arr[i] = rand()%100; // insert a random number from 0 to 99
   }
-  int* as = insertionSort(a);
-  struct Leaf* root = arrayToReverseBST(as, 10);
+  int *arrs = insertionSort(arr, 10);
+  struct Leaf* root = arrayToReverseBST(arrs, 10);
+	preOrder(root);
 }
