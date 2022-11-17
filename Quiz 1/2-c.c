@@ -15,10 +15,10 @@ struct Node* arrayToLLWithNextk (int* a, int n){
   head->nextk = NULL;
   struct Node* prev = head;
 
-  int i = 0;
-  while (i<n){  // for next
+  int m = 0;
+  while (m<n){  // for next
     struct Node* temp = (struct Node*)malloc(sizeof(struct Node));  //new node
-    temp->val = a[i];
+    temp->val = a[m];
     temp->next = NULL;
     temp->nextk = NULL;
 
@@ -28,47 +28,36 @@ struct Node* arrayToLLWithNextk (int* a, int n){
       prev->next = temp;
     }
     prev = temp;
-    i++;
+    m++;
   }
 
-  i = 0;
-  struct Node* curr = head; // current node, increments using next
-  struct Node* temp = head; // current node's kth node, resets after every node's nextk is found
-  while(i<n){  // for nextk
-    curr->k = rand()%(5 + 1 - 2) + 2; // random number between 2 and 5
-    printf("k is %d: ", curr->k);
-    if (curr == head){
-      int j=0;  // counter to loop findNext until k
-      while(j<curr->k){
-        temp = temp->next;  // finding head+k
-        j++;
+  int j = 0;  // for List
+  struct Node* curr = head;
+  struct Node* tempo = curr;
+  while(j<n){
+    curr->k = rand()%(5+1-2)+2;
+    int nk = curr->k;
+    int c = 0;
+
+    if (curr==head){
+      while(c<nk){
+        tempo = tempo->next;
+        printf("at %d c is %d of %d\n", j, c, nk);
+        c++;
       }
-      head->next = temp;
-      // printf("%d, ", temp->val);
+      head->nextk = tempo;
       curr = head->next;
-      temp = curr;
-    }
-    else {
-      int flag = 0; //checking for null
-      int j = 0;
-      while(j<curr->k && flag==0){
-        temp = temp->next;  // finding head+k
-        if (temp==NULL){ // if curr is NULL
-          curr->nextk = NULL;
-          flag++;
-        }
-        j++;
-      }
-      //printf("%d, ", temp->val);
-      if (flag!=0){
-        curr->nextk = temp;
+      tempo = curr;
+    } else {
+      while (c<nk && tempo){
+        tempo = tempo->next;
+        printf("at %d c is %d of %d\n", j, c, nk);
+        c++;
       }
       curr = curr->next;
-      temp = curr;
+      tempo = curr;
     }
-    printf("(i is %d) ", i);
-    i++;
-    printf("\n");
+    j++;
   }
   return head;
 }
