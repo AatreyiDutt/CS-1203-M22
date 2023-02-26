@@ -1,0 +1,61 @@
+Albedo,Sucrose,Lisa,Klee,Jean,Xingqiu,Barbara
+Alhaitham,Nahida,Tighnari,Dori,Cyno,Nilou
+Amber,Jean,Lisa,Kaeya,Bennett,Klee,Albedo,Noelle,Eula,Collei
+Arataki Itto,Thoma,Kamisato Ayato,Yoimiya,Kaedehara Kazuha,Raiden Shogun,Yae Miko,Kujou Sara,Gorou,Kuki Shinobu,Sayu,
+Barbara,Jean,Lisa,Amber,Diluc,Venti,Bennett,Rosaria,Noelle
+Beidou,Ningguang,Xiangling,Zhongli,Xiao,Ganyu,Xinyan,Yaoyao,Kaedehara Kazuha
+Bennett,Barbara,Klee,Fischl,Jean,Razor,Amber,Noelle
+Candace,Nahida,Layla,Alhaitham,Cyno
+Chongyun,Zhongli,Xingqiu,Xiao,Hu Tao,Qiqi,Xinyan,Xiangling,Shenhe,Yelan
+Collei,Tighnari,Dori,Nahida,Cyno,Nilou,Amber,Kaeya,Lisa,Fischl,Faruzan
+Cyno,Tighnari,Collei,Alhaitham,Nahida,Nilou,Faruzan,Lisa
+Diluc,Kaeya,Lisa,Jean,Mona,Diona,Eula
+Diona,Diluc,Kaeya,Venti,Barbara,Jean,Albedo,Lisa,Xiangling,Klee
+Dori,Cyno,Tighnari,Alhaitham,Zhongli,Nahida,Nilou
+Eula,Amber,Jean,Lisa,Barbara,Venti,Razor,Sucrose,Diluc,Diona,Yanfei
+Faruzan,Nahida,Tighnari,Collei,Cyno,Layla,Nilou
+Fischl,Bennett,Lisa,Kaeya,Mona,Rosaria
+Ganyu,Zhongli,Ningguang,Keqing,Xingqiu,Xiangling,Beidou,Yaoyao,Xiao,Yanfei,Shenhe,Yelan
+Gorou,Beidou,Kaedehara Kazuha,Sangonomiya Kokomi,Raiden Shogun,Kujou Sara,Yae Miko,Kamisato Ayaka,Sayu,Shikanoin Heizou
+Hu Tao,Zhongli,Qiqi,Ningguang,Beidou,Xingqiu,Chongyun,Xiao,Keqing,Xiangling,YunJin,Shenhe
+Jean,Barbara,Lisa,Amber,Kaeya,Klee,Albedo,Noelle,Rosaria,Diluc,Sucrose,Eula
+Kaedehara Kazuha,Beidou,Gorou,Kujou Sara,Raiden Shogun,Kamisato Ayaka,Yoimiya,Sangonomiya Kokomi,Shikanoin Heizou
+Kaeya,Jean,Lisa,Amber,Diluc,Klee,Albedo,Diona,Fischl,Noelle,Rosaria,Sucrose,Collei
+Kamisato Ayaka,Thoma,Kujou Sara,Shikanoin Heizou,Sayu,Raiden Shogun,Yae Miko,Kamisato Ayato,Yoimiya
+Kamisato Ayato,Kamisato Ayaka,Thoma,Sayu,Yoimiya,Raiden Shogun,Yae Miko,Kujou Sara,Kaedehara Kazuha,Arataki Itto,Ningguang
+Keqing,Zhongli,Beidou,Ningguang,Xinyan,Xiangling,Xiao,Xingqiu,Ganyu,YunJin,Venti,Yanfei,Yelan
+Klee,Razor,Kaeya,Amber,Jean,Diluc,Lisa,Bennett,Diona,Albedo,Mona,Sucrose
+Kujou Sara,Thoma,Kamisato Ayato,Yoimiya,Shikanoin Heizou,Raiden Shogun,Yae Miko,Sangonomiya Kokomi,Arataki Itto,Kuki Shinobu
+Kuki Shinobu,Raiden Shogun,Kujou Sara,Yae Miko,Arataki Itto,Yanfei,Shikanoin Heizou
+Layla,Mona,Lisa,Dori,Cyno,Candace,Alhaitham,Nahida,Faruzan
+Lisa,Jean,Amber,Barbara,Diluc,Razor,Klee,Mona,Albedo,Fischl,Noelle,Sucrose,Cyno,Collei
+Mona,Jean,Albedo,Klee,Diluc,Kaeya,Lisa,Venti
+Nahida,Cyno,Tighnari,Collei,Alhaitham,Nilou,Dori,Faruzan,Wanderer
+Nilou,Cyno,Tighnari,Collei,Dori,Nahida
+Ningguang,Beidou,Zhongli,Xingqiu,Xiangling,Ganyu,Yaoyao,Keqing,Jean,Yanfei,Shenhe,YunJin,Yelan
+Noelle,Amber,Klee,Jean,Kaeya,Bennett,Fischl,Barbara
+Qiqi,Hu Tao,Xiao,Xinyan,Yaoyao
+Raiden Shogun,Kamisato Ayato,Kujou Sara,Sangonomiya Kokomi,Arataki Itto,Yoimiya
+Razor,Lisa,Barbara,Diluc,Venti,Bennett,Klee
+Rosaria,Diluc,Kaeya,Venti,Barbara,Jean,Albedo,Lisa,Klee
+Sangonomiya Kokomi,Gorou,Kujou Sara,Yae Miko,Raiden Shogun,Beidou,Kaedehara Kazuha,Shikanoin Heizou
+Sayu,Kamisato Ayaka,Kamisato Ayato,Thoma,Yoimiya,Raiden Shogun,Yae Miko,Arataki Itto,Kuki Shinobu
+Shenhe,Ningguang,Beidou,YunJin,Ganyu,Chongyun,Xingqiu,Zhongli,Hu Tao,Xiao
+Shikanoin Heizou,Kujou Sara,Arataki Itto,Kuki Shinobu,Yae Miko,Kaedehara Kazuha,Gorou,Sangonomiya Kokomi,Kamisato Ayaka
+Sucrose,Noelle,Klee,Jean,Lisa,Kaeya,Albedo,Amber,Fischl,Eula
+Tartaglia,Zhongli
+Thoma,Yae Miko,Raiden Shogun,Beidou,Kamisato Ayato,Kamisato Ayaka,Yoimiya,Sayu,Kujou Sara,Arataki Itto,Shikanoin Heizou,Jean,Eula
+Tighnari,Collei,Cyno,Alhaitham,Dori,Layla,Lisa,Nahida,Faruzan
+Venti,Jean,Diluc,Barbara,Razor,Mona,Diona,Albedo,Zhongli,Eula,Raiden Shogun,Nahida
+Wanderer,Nahida,Raiden Shogun,Tartaglia,Yae Miko,Kaedehara Kazuha
+Xiangling,Ningguang,Hu Tao,Diona,Beidou,Zhongli,Chongyun,Ganyu,Yaoyao,Xinyan,Yelan
+Xiao,Zhongli,Beidou,Hu Tao,Venti,Ganyu,Shenhe
+Xingqiu,Beidou,Ningguang,Chongyun,YunJin,Hu Tao,Qiqi,Xiangling,Xinyan,Albedo,Zhongli,Shenhe,Yelan
+Xinyan,Xiangling,Zhongli,Ningguang,Beidou,Chongyun,Hu Tao,YunJin
+Yae Miko,Raiden Shogun,Kamisato Ayato,Kamisato Ayaka,Kujou Sara,Yoimiya,Ganyu,Sangonomiya Kokomi,Arataki Itto,Gorou,Sayu,Kuki Shinobu
+Yanfei,Qiqi,Ganyu,Xingqiu,Hu Tao,Zhongli,Ningguang,Keqing,Eula,Yelan,Kuki Shinobu
+Yaoyao,Xiangling,Qiqi,Ganyu,Keqing,YunJin,Beidou,Shenhe,Yanfei
+Yelan,Ningguang,Ganyu,Keqing,Yanfei,Xiao,Xiangling,Xingqiu,Tartaglia
+Yoimiya,Beidou,Raiden Shogun,Kamisato Ayaka,Thoma,Yae Miko,Arataki Itto,Kaedehara Kazuha,Kujou Sara,Sayu,Klee
+YunJin,Xinyan,Hu Tao,Zhongli,Ningguang,Xingqiu,Shenhe,Keqing,Kaedehara Kazuha
+Zhongli,Xiao,Venti,Ningguang,Hu Tao,Tartaglia,Ganyu,Keqing,Yanfei,Raiden Shogun,Nahida
