@@ -26,15 +26,6 @@ struct Node* createList(int n){ //creates a linked list of numbers 0 to n
   return head;  //return starting pointer of list
 }
 
-void traverseList(struct Node* head){
-  struct Node* curr = head;
-  while (curr){
-    printf("%d -> ", curr->val);
-    curr = curr->next;
-  }
-  printf("NULL"); // end of list
-}
-
 // uptil here, code is from linkedList.c
 
 void half(struct Node* head){
