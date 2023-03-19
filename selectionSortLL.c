@@ -38,19 +38,19 @@ void traverseList(struct Node* head){
 struct Node* selectionSort (struct Node* head){
     struct Node* curr = head; // head of unsorted part
     struct Node* min;
-    struct Node* check;
+    struct Node* check; // just to traverse to look for min in unsorted sublist
     while(curr){
-        min = curr;
+        min = curr; // ref point for rest of array
         check = curr->next;
         while(check){
             if (check->val < min->val){
                 min = check;            
             } check = check->next;
         }   // now we have min
-        int temp = curr->val;
+        int temp = curr->val;   // swap values of current node and min node
         curr->val = min->val;
         min->val = temp;
-        curr = curr->next;
+        curr = curr->next;  // update unsorted part
     } return head;
 }
 

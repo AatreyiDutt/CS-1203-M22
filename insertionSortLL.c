@@ -39,7 +39,7 @@ struct Node* insertionSort(struct Node* head){
     struct Node* curr = head;
     struct Node* headSorted = NULL;
     while (curr) {
-        struct Node* succ = curr->next;
+        struct Node* succ = curr->next; // keeping track of what the next node is (curr->next will be updated later)
 
         if (headSorted == NULL || headSorted->val >= curr->val) {   // just for 1st node inserted
             curr->next = headSorted;
